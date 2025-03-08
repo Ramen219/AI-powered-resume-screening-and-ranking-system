@@ -1,0 +1,27 @@
+/* Apply the gradient to the entire body */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #34495e); /* Dark gradient */
+    font-family: 'Arial', sans-serif; /* Optional: set a default font */
+  }
+  
+  /* Customize App's header section */
+  .App-header {
+    background: transparent; /* Make the header transparent so the gradient from body is visible */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white; /* White text to contrast with dark background */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Optional: text shadow for better contrast */
+  }
+  
+  /* Add styling for links */
+  .App-link {
+    color: #61dafb;
+  }
+  
