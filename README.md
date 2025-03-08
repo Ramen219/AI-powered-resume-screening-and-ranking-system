@@ -22,7 +22,7 @@ It aims to reduce the manual workload of recruiters and ensure a fair and unbias
 5. **Display Ranked Resumes**: The ranked list is displayed in a table, showing details such as file name, email, phone number, and ranking score.
 
 ## Tech Stack & Tools Used
-- **Frontend**: React.js, HTML, CSS, Bootstrap
+- **Frontend**: React.js, HTML, CSS, Tailwind CSS
 - **Backend**: Flask (Python)
 - **AI & NLP**: sklearn, TfidfVectorizer, TF-IDF (Term Frequency - Inverse Document Frequency)
 - **PDF(file) Processing**: PyMuPDF (fitz), PyPDF, docx2txt
